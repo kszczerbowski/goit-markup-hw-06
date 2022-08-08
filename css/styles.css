@@ -439,7 +439,7 @@ input[type="checkbox"] {
 input:before {
     display: block;
     content: ' ';
-    background-image: url('/goit-markup-hw-06/images/icons.svg#icon-icon-uncheck');
+    background-image: url("/goit-markup-hw-06/images/icons.svg#icon-icon-uncheck");
     background-size: 16px 15px;
     height: 15px;
     width: 16px;
@@ -451,7 +451,7 @@ input:before {
 input:checked:before {
     display: block;
     content: ' ';
-    background-image: url('/goit-markup-hw-06/images/icons.svg#icon-icon-check');
+    background-image: url("/goit-markup-hw-06/images/icons.svg#icon-icon-check");
     background-size: 16px 15px;
     height: 15px;
     width: 16px;
@@ -489,7 +489,7 @@ input:checked:before {
 .submit-button-newsletter:before {
     display: block;
     content: ' ';
-    background-image: url('/goit-markup-hw-06/images/icons.svg#icon-newsletter-send');
+    background-image: url("/goit-markup-hw-06/images/icons.svg#icon-newsletter-send");
     background-size: 24px 24px;
     height: 24px;
     width: 24px;
