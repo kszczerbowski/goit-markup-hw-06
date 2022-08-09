@@ -426,7 +426,9 @@ label textarea:focus {
 }
 
 input:focus + .label-icon,
-input:hover + .label-icon {
+input:hover + .label-icon,
+input:hover,
+.label-icon:hover {
     fill: var(--color-active);
 }
 
