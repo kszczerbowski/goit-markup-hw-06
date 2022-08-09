@@ -441,7 +441,7 @@ input[type="checkbox"] {
 input:before {
     display: block;
     content: ' ';
-    background-image: url('https://github.com/kszczerbowski/goit-markup-hw-06/blob/main/images/icons.svg#icon-icon-uncheck');
+    background-image: href="https://github.com/kszczerbowski/goit-markup-hw-06/blob/main/images/icons.svg#icon-icon-uncheck";
     background-size: 16px 15px;
     height: 15px;
     width: 16px;
@@ -453,7 +453,7 @@ input:before {
 input:checked:before {
     display: block;
     content: ' ';
-    background-image: url('https://github.com/kszczerbowski/goit-markup-hw-06/blob/main/images/icons.svg#icon-icon-check');
+    background-image: href="https://github.com/kszczerbowski/goit-markup-hw-06/blob/main/images/icons.svg#icon-icon-check";
     background-size: 16px 15px;
     height: 15px;
     width: 16px;
@@ -491,7 +491,7 @@ input:checked:before {
 .submit-button-newsletter:before {
     display: block;
     content: ' ';
-    background-image: url('https://github.com/kszczerbowski/goit-markup-hw-06/blob/main/images/icons.svg#icon-newsletter-send');
+    background-image: href="https://github.com/kszczerbowski/goit-markup-hw-06/blob/main/images/icons.svg#icon-newsletter-send";
     background-size: 24px 24px;
     height: 24px;
     width: 24px;
