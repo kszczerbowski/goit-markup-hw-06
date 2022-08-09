@@ -441,27 +441,25 @@ input[type="checkbox"] {
 input:before {
     display: block;
     content: ' ';
-    background-image: url("/goit-markup-hw-06/images/icons.svg#icon-icon-uncheck");
+    background-image: href="/goit-markup-hw-06/images/icons.svg#icon-icon-uncheck";
     background-size: 16px 15px;
     height: 15px;
     width: 16px;
     position: absolute;
     bottom: -2.5px;
     right: 2px;
-    z-index: 10;
 }
 
 input:checked:before {
     display: block;
     content: ' ';
-    background-image: url("/goit-markup-hw-06/images/icons.svg#icon-icon-check");
+    background-image: href="/goit-markup-hw-06/images/icons.svg#icon-icon-check";
     background-size: 16px 15px;
     height: 15px;
     width: 16px;
     position: absolute;
     bottom: -2.5px;
     right: 2px;
-    z-index: 11;
 }
 
 .submit-button-newsletter {
@@ -493,14 +491,13 @@ input:checked:before {
 .submit-button-newsletter:before {
     display: block;
     content: ' ';
-    background-image: url("/goit-markup-hw-06/images/icons.svg#icon-newsletter-send");
+    background-image: href="/goit-markup-hw-06/images/icons.svg#icon-newsletter-send";
     background-size: 24px 24px;
     height: 24px;
     width: 24px;
     position: absolute;
     bottom: 13px;
     right: 28px;
-    z-index: 10;
 }
 
 .newsletter-signup {
