@@ -448,6 +448,7 @@ input:before {
     position: absolute;
     bottom: -2.5px;
     right: 2px;
+    z-index: 10;
 }
 
 input:checked:before {
@@ -460,6 +461,7 @@ input:checked:before {
     position: absolute;
     bottom: -2.5px;
     right: 2px;
+    z-index: 11;
 }
 
 .submit-button-newsletter {
@@ -498,6 +500,7 @@ input:checked:before {
     position: absolute;
     bottom: 13px;
     right: 28px;
+    z-index: 10;
 }
 
 .newsletter-signup {
