@@ -506,15 +506,17 @@ input:checked:before {
     top: 2px;
 }
 
-/* .check-icon {
-    z-index: 20;
+.check-icon {
+    z-index: 10;
 }
 
 .uncheck-icon {
     z-index: 15;
-} */
+}
 
-input:checked + .uncheck-icon {
+.terms-checkbox:checked + .uncheck-icon,
+.terms-checkbox:checked,
+.terms-checkbox {
     opacity: 0%;
 }
 
