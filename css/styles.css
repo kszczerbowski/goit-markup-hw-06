@@ -514,8 +514,8 @@ input:checked:before {
     z-index: 15;
 }
 
-input:checked + .check-icon {
-    z-index: 20;
+input:checked + .uncheck-icon {
+    opacity: 0%;
 }
 
 .submit-button-newsletter:before {
