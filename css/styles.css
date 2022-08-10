@@ -496,6 +496,28 @@ input:checked:before {
     left: 160px;
     top: 13px;
 }
+
+.terms-box {
+    position: relative;
+}
+
+.checkbox-icon {
+    position: absolute;
+    left: 17px;
+}
+
+.check-icon {
+    z-index: 10;
+}
+
+.uncheck-icon {
+    z-index: 15;
+}
+
+input:checked + .check-icon {
+    z-index: 20;
+}
+
 .submit-button-newsletter:before {
     display: block;
     content: ' ';
