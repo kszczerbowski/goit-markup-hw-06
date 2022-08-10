@@ -514,9 +514,7 @@ input:checked:before {
     z-index: 15;
 }
 
-.terms-checkbox:checked + .uncheck-icon,
-.terms-checkbox:checked,
-.terms-checkbox {
+.terms-checkbox:checked + .uncheck-icon {
     opacity: 0%;
 }
 
