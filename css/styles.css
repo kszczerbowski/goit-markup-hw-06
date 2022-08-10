@@ -506,13 +506,13 @@ input:checked:before {
     top: 2px;
 }
 
-.check-icon {
+/* .check-icon {
     z-index: 20;
 }
 
 .uncheck-icon {
     z-index: 15;
-}
+} */
 
 input:checked + .uncheck-icon {
     opacity: 0%;
