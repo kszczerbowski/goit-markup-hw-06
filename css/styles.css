@@ -433,7 +433,6 @@ input:hover,
 }
 
 input[type="checkbox"] {
-	-webkit-appearance: none;
 	display: inline-block;
 	position: relative;
 }
