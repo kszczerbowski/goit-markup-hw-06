@@ -503,10 +503,11 @@ input:checked:before {
 .checkbox-icon {
     position: absolute;
     left: 17px;
+    top: 2px;
 }
 
 .check-icon {
-    z-index: 10;
+    z-index: 20;
 }
 
 .uncheck-icon {
