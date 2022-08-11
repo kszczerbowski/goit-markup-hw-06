@@ -415,6 +415,7 @@ label:nth-child(5) {
     margin-top: 30px;
     padding: 0px;
     box-shadow: 0px 4px 4px 0px #00000026;
+    cursor: pointer;
 }
 
 label input:hover,
