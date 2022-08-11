@@ -502,8 +502,8 @@ input:checked:before {
 
 .checkbox-icon {
     position: absolute;
-    left: 17px;
-    top: 2px;
+    left: 53px;
+    top: 1px;
 }
 
 .check-icon {
@@ -512,11 +512,24 @@ input:checked:before {
 
 .uncheck-icon {
     z-index: 15;
+    background-color: white;
 }
 
-.terms-checkbox:checked + .uncheck-icon {
-    opacity: 0%;
+.terms-checkbox:checked + .uncheck-icon,
+.terms-checkbox:checked {
     z-index: 0;
+    opacity: 0%;
+}
+
+.terms-checkbox {
+    position: absolute;
+    right: 202px;
+}
+
+.statement {
+    position: absolute;
+    right: 48px;
+    top: -2px;
 }
 
 .submit-button-newsletter:before {
